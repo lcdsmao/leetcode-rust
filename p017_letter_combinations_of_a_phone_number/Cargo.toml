@@ -1,0 +1,7 @@
+[package]
+name = "p017_letter_combinations_of_a_phone_number"
+version = "0.1.0"
+authors = ["Mao <lcdsmao@gmail.com>"]
+edition = "2018"
+
+[dependencies]
