@@ -150,3 +150,7 @@ version = "0.1.0"
 name = "p041_first_missing_positive"
 version = "0.1.0"
 
+[[package]]
+name = "p042_trapping_rain_water"
+version = "0.1.0"
+
