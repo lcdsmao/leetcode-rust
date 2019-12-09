@@ -162,3 +162,7 @@ version = "0.1.0"
 name = "p044_wildcard_matching"
 version = "0.1.0"
 
+[[package]]
+name = "p045_jump_game_ii"
+version = "0.1.0"
+
