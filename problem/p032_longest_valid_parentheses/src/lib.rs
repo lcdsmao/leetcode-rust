@@ -21,3 +21,14 @@ impl Solution {
         max_len
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(Solution::longest_valid_parentheses("(()".to_string()), 2);
+        assert_eq!(Solution::longest_valid_parentheses(")()())".to_string()), 4);
+    }
+}

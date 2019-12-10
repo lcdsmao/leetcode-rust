@@ -26,3 +26,16 @@ impl Solution {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::borrow::BorrowMut;
+
+    #[test]
+    fn it_works() {
+        let mut v = vec![1, 2, 3];
+        Solution::next_permutation(&mut v);
+        assert_eq!(v, vec![1, 3, 2].borrow_mut());
+    }
+}

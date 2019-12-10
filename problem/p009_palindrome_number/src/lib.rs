@@ -16,3 +16,14 @@ impl Solution {
         num == reverse_num || num == reverse_num / 10
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(Solution::is_palindrome(121), true);
+        assert_eq!(Solution::is_palindrome(-121), false);
+    }
+}

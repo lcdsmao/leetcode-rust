@@ -29,3 +29,15 @@ impl Solution {
         ans.unwrap()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let nums = vec![-1, 2, 1, -4];
+        let ans = Solution::three_sum_closest(nums, 1);
+        assert_eq!(ans, 2);
+    }
+}

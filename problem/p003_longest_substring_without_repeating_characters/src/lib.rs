@@ -22,3 +22,17 @@ impl Solution {
         max_len as i32
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let len = Solution::length_of_longest_substring(String::from("pwwkew"));
+        assert_eq!(len, 3);
+
+        let len = Solution::length_of_longest_substring(String::from("tmmzuxt"));
+        assert_eq!(len, 5);
+    }
+}

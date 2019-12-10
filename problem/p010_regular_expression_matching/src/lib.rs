@@ -30,3 +30,15 @@ impl Solution {
         dp[s.len()][p.len()]
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(Solution::is_match("aa".to_string(), "a".to_string()), false);
+
+        assert_eq!(Solution::is_match("aa".to_string(), "a*".to_string()), true);
+    }
+}

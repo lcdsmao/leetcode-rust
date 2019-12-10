@@ -15,3 +15,15 @@ impl Solution {
         slow as i32 + 1
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let mut v = vec![1, 1, 2];
+        assert_eq!(Solution::remove_duplicates(&mut v), 2);
+        assert_eq!(&v[0..2], vec![1, 2].as_slice());
+    }
+}

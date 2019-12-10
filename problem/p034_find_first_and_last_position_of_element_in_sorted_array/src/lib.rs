@@ -43,3 +43,21 @@ impl Solution {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(
+            Solution::search_range(vec![5, 7, 7, 8, 8, 10], 8),
+            vec![3, 4]
+        );
+
+        assert_eq!(
+            Solution::search_range(vec![5, 7, 7, 8, 8, 10], 6),
+            vec![-1, -1]
+        );
+    }
+}

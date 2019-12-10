@@ -18,3 +18,16 @@ impl Solution {
         panic!("No valid answer")
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let nums = vec![2, 7, 11, 15];
+        let target = 9;
+        let ans = Solution::two_sum(nums, target);
+        assert_eq!(ans, vec![0, 1]);
+    }
+}

@@ -37,3 +37,20 @@ impl Solution {
         res
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let res = Solution::letter_combinations("23".to_string());
+        assert_eq!(
+            res,
+            vec!["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+        );
+
+        let res = Solution::letter_combinations("".to_string());
+        assert_eq!(res, Vec::<String>::new());
+    }
+}

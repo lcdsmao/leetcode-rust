@@ -20,3 +20,14 @@ impl Solution {
         dummy_head.next
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let res = Solution::swap_pairs(ListNode::from_vec(vec![1, 2, 3, 4]));
+        assert_eq!(res, ListNode::from_vec(vec![2, 1, 4, 3]));
+    }
+}

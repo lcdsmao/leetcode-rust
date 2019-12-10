@@ -22,3 +22,21 @@ impl Solution {
         strs[0][..i].to_string()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let strs = vec![
+            "flower".to_string(),
+            "flow".to_string(),
+            "flight".to_string(),
+        ];
+        assert_eq!(Solution::longest_common_prefix(strs), "fl".to_string());
+
+        let strs = vec!["dog".to_string(), "racecar".to_string(), "car".to_string()];
+        assert_eq!(Solution::longest_common_prefix(strs), "".to_string());
+    }
+}

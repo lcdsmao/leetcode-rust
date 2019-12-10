@@ -28,3 +28,14 @@ impl Solution {
         -1
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let res = Solution::search(vec![4, 5, 6, 7, 0, 1, 2], 0);
+        assert_eq!(res, 4);
+    }
+}

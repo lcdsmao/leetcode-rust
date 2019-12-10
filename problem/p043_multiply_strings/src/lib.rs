@@ -18,3 +18,16 @@ impl Solution {
         res.into_iter().map(|n| n.to_string()).rev().collect()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(
+            Solution::multiply("123".to_string(), "456".to_string()),
+            "56088".to_string()
+        );
+    }
+}

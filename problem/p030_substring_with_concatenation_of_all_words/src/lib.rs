@@ -33,3 +33,17 @@ impl Solution {
         map
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let res = Solution::find_substring(
+            "barfoothefoobarman".to_string(),
+            vec!["foo".to_string(), "bar".to_string()],
+        );
+        assert_eq!(res, vec![0, 9]);
+    }
+}
