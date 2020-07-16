@@ -245,6 +245,10 @@ name = "p059_spiral_matrix_ii"
 version = "0.1.0"
 
 [[package]]
+name = "p060_permutation_sequence"
+version = "0.1.0"
+
+[[package]]
 name = "regex"
 version = "1.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
