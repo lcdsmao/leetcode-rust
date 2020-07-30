@@ -249,6 +249,13 @@ name = "p060_permutation_sequence"
 version = "0.1.0"
 
 [[package]]
+name = "p061_rotate_list"
+version = "0.1.0"
+dependencies = [
+ "listnode 0.1.0",
+]
+
+[[package]]
 name = "regex"
 version = "1.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
