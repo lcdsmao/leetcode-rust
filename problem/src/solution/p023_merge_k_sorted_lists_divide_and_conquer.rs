@@ -6,6 +6,7 @@ use core::mem;
 use std::borrow::BorrowMut;
 
 impl Solution {
+    #[allow(unused_must_use)]
     pub fn merge_k_lists(lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNode>> {
         let mut lists = lists;
         let mut interval = 1;

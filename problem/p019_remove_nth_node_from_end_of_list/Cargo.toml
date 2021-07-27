@@ -1,7 +1,0 @@
-[package]
-name = "p019_remove_nth_node_from_end_of_list"
-version = "0.1.0"
-authors = ["Mao <lcdsmao@gmail.com>"]
-edition = "2018"
-
-[dependencies]

@@ -1,7 +1,0 @@
-[package]
-name = "p004_median_of_two_sorted_arrays"
-version = "0.1.0"
-authors = ["Mao <lcdsmao@gmail.com>"]
-edition = "2018"
-
-[dependencies]

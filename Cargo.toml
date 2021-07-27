@@ -1,2 +1,2 @@
 [workspace]
-members = ["listnode", "problem/*", "main_to_test"]
+members = ["listnode", "problem"]

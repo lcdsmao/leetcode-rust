@@ -1,7 +1,0 @@
-[package]
-name = "p002_add_two_numbers"
-version = "0.1.0"
-authors = ["Mao <lcdsmao@gmail.com>"]
-edition = "2018"
-
-[dependencies]
