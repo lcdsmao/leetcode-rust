@@ -51,3 +51,4 @@ mod p060_permutation_sequence;
 mod p061_rotate_list;
 mod p062_unique_paths;
 mod p063_unique_paths_ii;
+mod p064_minimum_path_sum;
