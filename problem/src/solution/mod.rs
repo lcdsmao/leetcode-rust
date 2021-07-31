@@ -55,3 +55,4 @@ mod p064_minimum_path_sum;
 mod p066_plus_one;
 mod p071_simplify_path;
 mod p072_edit_distance;
+mod p073_set_matrix_zeroes;
