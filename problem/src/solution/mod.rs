@@ -54,3 +54,4 @@ mod p063_unique_paths_ii;
 mod p064_minimum_path_sum;
 mod p066_plus_one;
 mod p071_simplify_path;
+mod p072_edit_distance;
